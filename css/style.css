@@ -649,6 +649,10 @@ img {
 
 /**/
 
+.carousel {
+  padding: 0rem 1rem 0rem;
+}
+
 .carousel-wrapper {
   position: relative;
   display: flex;
@@ -1124,5 +1128,24 @@ img {
   .step .text .desc {
     font-size: 1.3rem;
     line-height: 1;
+  }
+
+  .arrow.left {
+    display: none;
+  }
+
+  .arrow.right {
+    display: none;
+  }
+
+  .footer-bottom {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+    text-align: center;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+    flex-wrap: wrap; /* allows stacking on smaller screens */
   }
 }
